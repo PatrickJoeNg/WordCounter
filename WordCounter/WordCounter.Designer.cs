@@ -46,6 +46,7 @@ namespace WordCounter
             this.countWordsBtn.TabIndex = 0;
             this.countWordsBtn.Text = "Count Words!";
             this.countWordsBtn.UseVisualStyleBackColor = true;
+            this.countWordsBtn.Click += new System.EventHandler(this.countWordsBtn_Click);
             // 
             // sentenceTxtBox
             // 

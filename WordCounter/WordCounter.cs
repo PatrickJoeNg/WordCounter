@@ -16,13 +16,17 @@ namespace WordCounter
         {
             InitializeComponent();
         }
-
         private void WordCounter_Load(object sender, EventArgs e)
         {
 
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void countWordsBtn_Click(object sender, EventArgs e)
         {
 
         }
